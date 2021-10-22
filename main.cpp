@@ -25,6 +25,6 @@ int main()
   str = encryptCaesar(str, 6);
   std::cout << "\nAfter encoding with rshift of 6: " << str << '\n';
   std::cout << "\nAfter solving: " << '\n';
-  std::cout << solve(str) << '\n';
+  std::cout << solve(str) << "\n\n";
   return 0;
 }
