@@ -26,5 +26,13 @@ int main()
   std::cout << "\nAfter encoding with rshift of 6: " << str << '\n';
   std::cout << "\nAfter solving: " << '\n';
   std::cout << solve(str) << "\n\n";
+
+  std::cout << "\nTest 4:" << '\n';
+  str = "no way";
+  std::cout << "\nBefore encoding: " << str << '\n';
+  str = encryptCaesar(str, 12);
+  std::cout << "\nAfter encoding with rshift of 4: " << str << '\n';
+  std::cout << "\nAfter solving: " << '\n';
+  std::cout << solve(str) << "\n" << " ^ which is wrong since there were too few letters" << "\n\n";
   return 0;
 }
