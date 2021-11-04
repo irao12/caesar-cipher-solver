@@ -25,6 +25,11 @@ void calculate_vector(double freq_vector[], std::string encrypted_string)
       int ascii = (int) encrypted_string[i];
       freq_vector[ascii - 97]++;
     }
+    else if (isupper(encrypted_string[i])){
+      num_of_letters++;
+      int ascii = (int) encrypted_string[i];
+      freq_vector[ascii-65]++;
+    }
   }
 
   for (int i = 0; i < 26; i++){

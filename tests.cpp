@@ -43,6 +43,10 @@ TEST_CASE("Testing solve function"){
   CHECK(solve("uxmmr ptl t vkxtmnkx hy atubm tgw lax mahnzam lax ebdxw bm matm ptr. matm ptl ngmbe wtox lahpxw ni bg axk ebyx. lax ghp atw t vahbvx mh ftdx tgw bm phnew wxmxkfbgx paxmaxk axk ebx kxftbgxw max ltfx hk by bm phnew vatgzx yhkxoxk.")
            == "betty was a creature of habit and she thought she liked it that way. that was until dave showed up in her life. she now had a choice to make and it would determine whether her lie remained the same or if it would change forever.");
 
+  CHECK(solve("Oz cgy g ckoxj iutikvz. Cne cuarj O xkgrre tkkj zu mktkxgzk g xgtjus vgxgmxgvn? Iuarj O gizagrre rkgxt yuskznotm lxus juotm yu? Grr znkyk wakyzouty ckxk xattotm znxuamn nkx nkgj gy ynk vxkyykj znk mktkxgzk hazzut. Zu nkx yaxvxoyk, ynk luatj cngz ynk rkgyz kdvkizkj zu ykk.")
+           == "It was a weird concept. Why would I really need to generate a random paragraph? Could I actually learn something from doing so? All these questions were running through her head as she pressed the generate button. To her surprise, she found what she least expected to see.");
+
+
 }
 
 TEST_CASE("Testing solve when there are too few words"){
