@@ -20,6 +20,3 @@ The ~solve~ function should:
     2. Calculate the distance between this vector and the vector of
        letter frequencies for English.
 The rotation with the smallest distance should be the solution.
-
-You can add additional functions and place all functionality in files
-that make sense (and/or add new ones).
