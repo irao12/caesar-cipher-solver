@@ -10,6 +10,9 @@ in the encrypted text.
 2. While in the directory of the project, enter make into the terminal
 3. Run by entering ./main
 
+* Note
+- If text provided to decrypt is too short, the result may be innacurate.
+
 * Specific instructions
 
 The ~solve~ function should:
