@@ -1,4 +1,4 @@
-*Caesar Cipher Solver
+* Caesar Cipher Solver
 
 Solves caesar ciphers by calculating the letter frequencies of the English language
 using a copy of Pride and Prejudice provided by Project Gutenberg and finding the minimal
@@ -8,7 +8,7 @@ in the encrypted text.
 * How to run
 1. Install make
 2. While in the directory of the project, enter make into the terminal
-3. Run by entering ./main 
+3. Run by entering ./main
 
 * Specific instructions
 
