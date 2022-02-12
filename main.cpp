@@ -41,5 +41,11 @@ int main()
   std::cout << "\nAfter encoding with rshift of 4: " << '\n' << str << '\n';
   std::cout << "\nAfter solving: " << '\n';
   std::cout << solve(str, frequencies) << "\n" << " ^ which is wrong since there were too few letters" << "\n\n";
+
+  std::string string;
+  std::cout << "Enter an encrypted line of text to test" << '\n';
+  std::getline(std::cin, string);
+  std::cout << "Encrypted string: " << string << '\n';
+  std::cout << "Decrypted string: " << solve(string, frequencies);
   return 0;
 }
